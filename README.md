@@ -10,7 +10,7 @@
 > 1. Edit the array and condition in the JavaScript file
 > 2. The numbers in the array, condition and first element that passed the condition will be displayed
 
-## Requirements
+## Requirements
 > 1. This project requires a browser to run
 > 2. The browser must have JavaScript available and enabled
 
