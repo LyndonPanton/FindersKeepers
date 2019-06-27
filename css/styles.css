@@ -32,3 +32,36 @@ header {
 
 
 /* FOOTER */
+footer {
+	position: absolute;
+	bottom: 0;
+	min-width: 100%;
+	padding: 2vh 0;
+	background-color: #480F7C;
+	font-size: 1.1em;
+}
+
+.more-link {
+	color: black;
+}
+
+.more-link:active {
+	color: #FAD30A !important;
+}
+
+.more-link:hover {
+	color: #C73F75;
+}
+
+#copyright {
+	display: block;
+}
+
+#more {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+
+	padding: 1vh 0 0;
+	font-size: 1.2em;
+}
