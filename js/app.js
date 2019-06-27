@@ -24,12 +24,14 @@ window.onload = function(event) {
 	// Edit me
 	let arr = [1, 4, 9, 16, 25, 36, 49, 64, 81, 100];
 
-	find(arr, function(number) {
+	function condition(number) {
 		// Edit me
 		if (number % 5 === 0) {
 			return number;
 		} else {
 			return undefined;
 		}
-	});
+	}
+
+	find(arr, condition);
 };
