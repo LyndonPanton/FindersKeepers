@@ -28,8 +28,36 @@ header {
 
 
 /* MAIN */
+main {
+	padding-top: 5vh;
+}
 
+.display {
+	margin: 3vh 20vw;
+	border: 2px white solid;
+	border-radius: 5px;
+	padding: 1vh 5vw;
+}
 
+.display-value {
+	color: aliceblue;
+}
+
+#display-array {
+	background-color: orange;
+}
+
+#display-condition {
+	background-color: brown;
+}
+
+#display-first {
+	background-color: green;
+}
+
+#message {
+	background-color: mediumblue;
+}
 
 /* FOOTER */
 footer {
