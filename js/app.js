@@ -16,7 +16,14 @@ window.onload = function(event) {
 	}
 
 	function display(array) {
-		document.getElementById("display-array-values").textContent = array[0];
+		let arrayDisplay = document.getElementById("display-array-values");
+
+		for (let i = 0; i < array[0].length - 1; i++) {
+			arrayDisplay.textContent = arrayDisplay.textContent + array[0][i] + ", ";
+		}
+
+		arrayDisplay.textContent = arrayDisplay.textContent + array[0][array[0].length - 1];
+		
 		document.getElementById("display-condition-value").textContent = array[1];
 		document.getElementById("display-first-value").textContent = array[2];
 	}
