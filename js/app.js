@@ -25,7 +25,7 @@ window.onload = function(event) {
 		arrayDisplay.textContent = arrayDisplay.textContent + array[0][array[0].length - 1];
 		
 		document.getElementById("display-condition-value").textContent = array[1];
-		document.getElementById("display-first-value").textContent = array[2];
+		document.getElementById("display-first-value").textContent = array[2] || "N/A";
 	}
 
 	function find(arr, func) {
